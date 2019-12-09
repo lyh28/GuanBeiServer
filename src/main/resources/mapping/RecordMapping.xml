@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyh.guanbei.mapper.RecordMapper">
+
+    <insert id="insert" parameterType="com.lyh.guanbei.bean.Record" useGeneratedKeys="true" keyProperty="record_id" keyColumn="record_id">
+        insert into record (user_id,book_id,time,amount,payto,content,remark,category)
+        values (#{user_id},#{book_id},#{time},#{amount},#{payto},#{content},#{remark},#{category})
+    </insert>
+    <delete id="delete" parameterType="list">
+        delete from record where record_id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <update id="update" parameterType="com.lyh.guanbei.bean.Record">
+        update record set time=#{time},amount=#{amount},payto=#{payto},content=#{content},remark=#{remark}
+            ,category=#{category} where record_id=#{record_id}
+    </update>
+    <select id="queryByUserId" resultType="com.lyh.guanbei.bean.Record">
+        select * from record where user_id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+    <select id="queryByBookId" resultType="com.lyh.guanbei.bean.Record">
+        select * from record where book_id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+</mapper>
