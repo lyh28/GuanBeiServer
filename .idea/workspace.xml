@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75590cda-8ad2-4a55-aaa9-d8f38909ec93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/util/JPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/util/JPush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/GuanbeiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/GuanbeiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/controller/RecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/guanbei.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/BaseResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/GuanbeiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/bean/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/bean/Record.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/controller/RecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/mapper/RecordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/service/RecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/util/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/util/JPush.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/guanbei/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/BookMapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/RecordMapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lyh/guanbei/GuanbeiApplicationTests.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,26 +52,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SpdCrPsheRHCYepa5ueB26pC9j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lyh/guanbei/mapper" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/.." />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java后台\guanbei\src\main\java\com\lyh\guanbei\mapper" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="GuanbeiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -64,6 +90,18 @@
         <item itemvalue="Application.GuanbeiApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,5 +128,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="247" key="GridCell.Tab.0.bottom" timestamp="1576577409899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576577409899" />
+    <state width="1323" height="247" key="GridCell.Tab.0.center" timestamp="1576577409899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576577409899" />
+    <state width="1323" height="247" key="GridCell.Tab.0.left" timestamp="1576577409899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576577409899" />
+    <state width="1323" height="247" key="GridCell.Tab.0.right" timestamp="1576577409899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576577409899" />
   </component>
 </project>

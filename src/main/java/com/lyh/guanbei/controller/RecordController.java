@@ -13,6 +13,10 @@ import java.util.List;
 public class RecordController {
     @Autowired
     private RecordService recordService;
+    @GetMapping("/test")
+    public String test(){
+        return "hello";
+    }
     @PostMapping("/insert")
     public BaseResponse<List<Record>> insert(@RequestBody List<Record> recordList){
         recordService.insert(recordList);
