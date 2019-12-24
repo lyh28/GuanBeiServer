@@ -1,7 +1,10 @@
 
 server:
-  port: 8989
-
+  port: 80
+#  ssl:
+#    key-password: lyh1208
+#    key-store:  classpath:server.keystore
+#    key-alias:  server
 spring:
   datasource:
     username: root

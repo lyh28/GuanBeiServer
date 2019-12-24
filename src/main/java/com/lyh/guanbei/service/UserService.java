@@ -14,6 +14,12 @@ public class UserService {
     public User search(String phone){
         return userMapper.search(phone);
     }
+    public User queryByPhone(String phone){
+        return userMapper.queryByPhone(phone);
+    }
+    public User queryById(long id){
+        return userMapper.queryById(id);
+    }
     public void insert(User user){
         userMapper.insert(user);
     }

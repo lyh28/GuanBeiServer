@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lyh.guanbei.mapper.BookMapper">
     <insert id="insert" parameterType="com.lyh.guanbei.bean.Book" useGeneratedKeys="true" keyProperty="book_id" keyColumn="book_id">
-        insert into book (book_name,manager_id,person_id,max_sum,now_sum)
-        values (#{book_name},#{manager_id},#{person_id},#{max_sum},#{now_sum})
+        insert into book (book_name,manager_id)
+        values (#{book_name},#{manager_id})
     </insert>
     <select id="query" resultType="com.lyh.guanbei.bean.Book">
         select * from book where book_id=#{id}

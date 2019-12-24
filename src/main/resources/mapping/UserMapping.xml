@@ -4,6 +4,12 @@
     <select id="search" resultType="com.lyh.guanbei.bean.User">
         select * from user where user_phone=#{phone}
     </select>
+    <select id="queryById" resultType="com.lyh.guanbei.bean.User">
+        select * from user where user_id=#{id}
+    </select>
+    <select id="queryByPhone" resultType="com.lyh.guanbei.bean.User">
+        select * from user where user_phone=#{phone}
+    </select>
     <insert id="insert" parameterType="com.lyh.guanbei.bean.User" useGeneratedKeys="true" keyProperty="user_id" keyColumn="user_id">
         insert into user (user_name,user_pwd,user_icon,user_phone,create_time)
         values (#{user_name},#{user_pwd},#{user_icon},#{user_phone},#{create_time})

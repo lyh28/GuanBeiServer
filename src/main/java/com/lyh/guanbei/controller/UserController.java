@@ -19,6 +19,7 @@ public class UserController {
     private UserService userService;
     @Autowired
     private BookController bookController;
+    //对密码进行加密
     @PostMapping("/login")
     public BaseResponse<User> login(@RequestParam("user_pwd") String user_pwd, @RequestParam("user_phone") String user_phone) {
         User res_user = userService.search(user_phone);
@@ -29,7 +30,6 @@ public class UserController {
         } else
             return new BaseResponse<>(BaseResponse.FAILED_CODE, "用户名或密码错误", null);
     }
-
     @PostMapping("/register")
     public BaseResponse<User> register(@RequestBody User user) {
         //先查找是否已被注册
@@ -47,7 +47,28 @@ public class UserController {
         bookController.insert(bookList);
         return new BaseResponse<>(BaseResponse.SUCCESS_CODE, "成功", user);
     }
-
+    @GetMapping("/queryByPhone/{phone}")
+    public BaseResponse<User> queryByPhone(@PathVariable("phone") String phone){
+        User user=userService.queryByPhone(phone);
+        if(user==null)
+            return new BaseResponse<>(BaseResponse.FAILED_CODE,"无此用户",null);
+        user.setUser_pwd("");
+        return new BaseResponse<>(BaseResponse.SUCCESS_CODE,"成功",user);
+    }
+    @PostMapping("/queryById")
+    public BaseResponse<List<User>> queryById(@RequestBody List<Long> idList){
+        List<User> list=new ArrayList<>();
+        for(long id:idList) {
+            User user=userService.queryById(id);
+            if(user!=null) {
+                user.setUser_pwd("");
+                list.add(user);
+            }
+        }
+        if(list==null||list.size()==0)
+            return new BaseResponse<>(BaseResponse.FAILED_CODE,"无此用户",null);
+        return new BaseResponse<>(BaseResponse.SUCCESS_CODE,"成功",list);
+    }
     public String addBookId(long bookId,long userId){
         String bookIds=userService.queryBookId(userId);
         String res=Util.addToData(bookId,bookIds);

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.lyh.guanbei.GuanbeiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.691 s - in com.lyh.guanbei.GuanbeiApplicationTests
